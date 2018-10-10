@@ -43,7 +43,7 @@ class FaceDetector(object):
             text = 'A face'
         else:
             text = '{} faces :)'.format(len(faces))
-        cv2.putText(frame, text, (10,100), font, 4, (50,90,205), 2)
+        cv2.putText(frame, text, (10,100), font, 4, (80,129,225), 2)
         
         # 取得した座標情報を元に、cv2.rectangleを使ってframe上に
         # 顔の位置を描画する
